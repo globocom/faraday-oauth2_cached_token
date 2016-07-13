@@ -14,6 +14,6 @@ Gem::Specification.new do |s|
   s.files = Dir['lib/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
 
   s.add_runtime_dependency 'faraday', '~> 0'
-  s.add_runtime_dependency 'oauth2', '~> 0'
-  s.add_runtime_dependency 'activesupport', '~> 0'
+  s.add_runtime_dependency 'oauth2', '>= 1'
+  s.add_runtime_dependency 'activesupport', '>= 4'
 end
